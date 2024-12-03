@@ -1,4 +1,7 @@
 Post Request for Creating User Account
+End Point : http://localhost:8080/api/expenses
+
+Request Body
 {
   "name": "Deepanshu",
   "startdate": "2024-14-21",
