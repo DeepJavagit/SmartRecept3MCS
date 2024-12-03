@@ -10,3 +10,15 @@ Request Body
   "comment": "near trip"
 }
 
+Upload an Image: You can use tools like Postman or cURL to test the image upload:
+
+Using cURL:
+
+curl -X POST -F "file=@path_to_image/image.jpg" http://localhost:8080/api/images/upload
+
+Download an Image: You can also use Postman or a browser to download the image:
+
+Using cURL:
+
+curl -O http://localhost:8080/api/images/download/image.jpg
+
