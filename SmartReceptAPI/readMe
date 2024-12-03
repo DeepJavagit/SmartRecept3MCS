@@ -1,0 +1,8 @@
+Post Request for Creating User Account
+{
+  "name": "Deepanshu",
+  "startdate": "2024-14-21",
+  "enddate": "2025-8-25",
+  "currency": "India",
+  "comment": "near trip"
+}
