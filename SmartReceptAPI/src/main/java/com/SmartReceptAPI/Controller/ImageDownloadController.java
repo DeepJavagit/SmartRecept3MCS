@@ -17,6 +17,7 @@ import java.io.IOException;
 public class ImageDownloadController {
 
     // Define the directory where the images are stored
+
     private final Path rootLocation = Paths.get("uploads");
 
     @GetMapping("/download/{filename}")

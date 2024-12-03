@@ -16,6 +16,7 @@ import java.nio.file.Paths;
 public class ImageController {
 
     // Define the directory to save uploaded images
+    
     private final Path rootLocation = Paths.get("uploads");
 
     public ImageController() {
