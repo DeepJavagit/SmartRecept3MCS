@@ -10,6 +10,7 @@ public class RecpExpenses {
 	
    @Id
    @GeneratedValue(strategy = GenerationType.IDENTITY)
+   @Column(name = "recepexpensesId")
    private Long id;
    private String name;
    private String startdate;
@@ -29,15 +30,6 @@ public class RecpExpenses {
        this.currency = currency;
        this.comment = comment;
    }
-
-public RecpExpenses(String name, String startdate, String enddate, String currency, String comment) {
-	super();
-	this.name = name;
-	this.startdate = startdate;
-	this.enddate = enddate;
-	this.currency = currency;
-	this.comment = comment;
-}
 
 public String getName() {
 	return name;
