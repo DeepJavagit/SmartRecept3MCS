@@ -11,6 +11,7 @@ import java.util.List;
 @RequestMapping("/coustmer-recept")
 public class CoustmerReceptsController {
 
+
     @Autowired
     private CoustmerReceptsService coustmerReceptsService;
 
